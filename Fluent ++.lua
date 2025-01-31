@@ -22,8 +22,6 @@ local httpService = game:GetService("HttpService")
 local RunService = game:GetService("RunService")
 local UserInputService = game:GetService("UserInputService")
 
-local Mobile = false
-
 local Asset = "rbxassetid://"
 if Game.GameId == 5750914919 then
 	Asset = ""
