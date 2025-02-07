@@ -61,7 +61,8 @@ local Themes = {
 		"Sapphire",
 		"Cloud",
 		"Grape",
-		"Bloody"
+		"Bloody",
+		"Roblox"
 	},
 	Dark = {
 		Name = "Dark",
@@ -728,6 +729,31 @@ local Themes = {
 		SubText = Color3.fromRGB(131, 131, 131),
 		Hover = Color3.fromRGB(181, 0, 0),
 		HoverChange = 0.04
+	},
+	Roblox = {
+		Name = "Roblox",
+		Accent = Color3.fromRGB(10, 11, 20),
+		AcrylicMain = Color3.fromRGB(10, 11, 20),
+		AcrylicBorder = Color3.fromRGB(60, 60, 60),
+		AcrylicGradient = ColorSequence.new(Color3.fromRGB(10, 11, 20), Color3.fromRGB(18, 18, 18)),
+		AcrylicNoise = 0.94,
+		TitleBarLine = Color3.fromRGB(65, 65, 65),
+		Tab = Color3.fromRGB(43, 39, 176),
+		Element = Color3.fromRGB(70, 70, 70),
+		ElementBorder = Color3.fromRGB(25, 25, 25),
+		InElementBorder = Color3.fromRGB(55, 55, 55),
+		ElementTransparency = 0.82,
+		DropdownFrame = Color3.fromRGB(120, 120, 120),
+		DropdownHolder = Color3.fromRGB(35, 35, 35),
+		DropdownBorder = Color3.fromRGB(25, 25, 25),
+		Dialog = Color3.fromRGB(10, 11, 20),
+		DialogHolder = Color3.fromRGB(10, 11, 20),
+		DialogHolderLine = Color3.fromRGB(10, 11, 20),
+		DialogButton = Color3.fromRGB(35, 35, 35),
+		DialogButtonBorder = Color3.fromRGB(55, 55, 55),
+		DialogBorder = Color3.fromRGB(43, 39, 176),
+		DialogInput = Color3.fromRGB(43, 39, 176),
+		DialogInputLine = Color3.fromRGB(43, 39, 176),
 	}
 
 }
